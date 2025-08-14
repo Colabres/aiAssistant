@@ -1,0 +1,2 @@
+# Minimal core deps (no audio/llama yet to keep CI light)
+tomli; python_version < "3.11"

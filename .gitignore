@@ -1,0 +1,21 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+.env.*
+
+# Models and data
+models/
+*.gguf
+*.bin
+*.onnx
+*.wav
+
+# VS Code / OS junk
+.vscode/
+.DS_Store
+Thumbs.db
