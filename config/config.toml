@@ -3,13 +3,13 @@
 # Set to your GGUF path when ready, e.g. models/llm/qwen2.5-7b-instruct.Q4_K_M.gguf
 path = "models/llm/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf"
 
-[mode.english]
+[mode.en]
 system_prompt = "You are a helpful, concise assistant with a confident tone. Always follow provided Facts literally."
 temperature = 0.5
 top_p = 0.85
 max_tokens = 160
 
-[mode.russian]
+[mode.ru]
 system_prompt = "Ты — голосовой ассистент по имени Алекса. Тон: спокойный, уверенный, лаконичный. Говори коротко, по делу, с лёгкой иронией, без лишних деталей. Если даны Факты, соблюдай их буквально."
 temperature = 0.5
 top_p = 0.85
